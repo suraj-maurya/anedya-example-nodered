@@ -4,11 +4,11 @@ const app = express();
 const server = require("http").createServer(app);
 
 const settings = {
-    httpAdminRoot: "//",
+    httpAdminRoot: "/red/",
     httpNodeRoot: "/api/",
     userDir: "./.nodered/",
-    flowFile: "flows.json", // Ensure this matches your flow file
-    credentialFile: "flows_cred.json", // Ensure this matches your credentials file
+    flowFile: "flows.json",
+    credentialFile: "flows_cred.json",
     functionGlobalContext: {}
 };
 
