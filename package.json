@@ -1,0 +1,12 @@
+{
+    "name": "smartOffice_anedya",
+    "description": "Project : Smart office anedya",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
