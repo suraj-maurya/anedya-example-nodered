@@ -3,7 +3,7 @@
     "description": "Project : Smart office anedya",
     "version": "0.0.1",
     "dependencies": {
-        "node-red": "^2.0.0" // Use the version that matches your local setup
+        "node-red": "^2.0.0" 
     },
     "scripts": {
         "start": "node index.js"
