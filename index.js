@@ -5,7 +5,6 @@ const app = express();
 const server = require("http").createServer(app);
 
 const settings = {
-    ui: { path: "dashboard" },
     httpAdminRoot: "/admin/",
     httpNodeRoot: "",
     userDir: "./.nodered/",
