@@ -1,17 +1,21 @@
 {
-    "name": "anedya-iot-dashboard",
-    "description": "Project : Smart office anedya",
-    "version": "0.0.1",
-    "dependencies": {
-        "node-red": "^2.0.0" 
-    },
-    "scripts": {
-        "start": "node index.js"
-    },
-    "node-red": {
-        "settings": {
-            "flowFile": "flows.json",
-            "credentialsFile": "flows_cred.json"
-        }
+  "name": "anedya-iot-dashboard",
+  "description": "Project : Smart office anedya",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-red": "^2.0.0",
+    "node-red-dashboard": "^3.6.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "node-red": {
+    "settings": {
+      "flowFile": "flows.json",
+      "credentialsFile": "flows_cred.json"
     }
+  },
+  "dependencies": {
+    "node-red-dashboard": "^2.0.0"
+  }
 }
