@@ -13,7 +13,7 @@ const settings = {
     credentialFile: "flows_cred.json",
     functionGlobalContext: {}
 };
-
+ 
 RED.init(server, settings);
 
 app.use(settings.httpAdminRoot, RED.httpAdmin);
