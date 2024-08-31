@@ -15,7 +15,5 @@
       "credentialsFile": "flows_cred.json"
     }
   },
-  "dependencies": {
-    "node-red-dashboard": "^2.0.0"
-  }
+
 }
