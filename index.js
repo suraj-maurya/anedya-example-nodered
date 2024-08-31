@@ -7,7 +7,7 @@ const server = require("http").createServer(app);
 const settings = {
     ui: { path: "dashboard" },
     httpAdminRoot: "/admin/",
-    httpNodeRoot: "/api/",
+    httpNodeRoot: "",
     userDir: "./.nodered/",
     flowFile: "flows.json",
     credentialFile: "flows_cred.json",
