@@ -5,7 +5,7 @@ const app = express();
 const server = require("http").createServer(app);
 
 const settings = {
-    httpAdminRoot: "",
+    httpAdminRoot: "/admin9*5",
     httpNodeRoot: "/api/",
     userDir: "./.nodered/",
     flowFile: "flows.json",
