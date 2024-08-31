@@ -1,8 +1,11 @@
 const { NodeRED } = require('node-red');
 
-const nodeRed = new NodeRED({
-  // settings...
-});
+const settings = {
+  flowFile: 'flows.json',
+  credentialsFile: 'flows_cred.json'
+};
+
+const nodeRed = new NodeRED(settings);
 
 nodeRed.init();
 
