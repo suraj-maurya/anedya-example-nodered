@@ -1,23 +1,17 @@
-const RED = require("node-red");
-const express = require("express");
-const app = express();
-const server = require("http").createServer(app);
+const { NodeRED } = require('node-red');
 
-const settings = {
-    httpAdminRoot: "/red/",
-    httpNodeRoot: "/api/",
-    userDir: "./.nodered/",
-    flowFile: "flows.json",
-    credentialFile: "flows_cred.json",
-    functionGlobalContext: {}
-};
-
-RED.init(server, settings);
-app.use(settings.httpAdminRoot, RED.httpAdmin);
-app.use(settings.httpNodeRoot, RED.httpNode);
-
-server.listen(process.env.PORT || 3000, () => {
-    console.log("Node-RED is running on port 3000");
+const nodeRed = new NodeRED({
+  // settings...
 });
 
-RED.start();
+nodeRed.init();
+
+const http = require('http');
+const server = http.createServer((req, res) => {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Node-RED is running!');
+});
+
+server.listen(1880, () => {
+  console.log('Node-RED is running on port 1880');
+});

@@ -1,0 +1,1 @@
+services:  - type: web    name: node-red    env: node    runtime:      version: '14'    ports:      - port: 1880        protocol: http    start: node index.js
