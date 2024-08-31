@@ -11,7 +11,7 @@
         "@flowfuse/node-red-dashboard": "^1.15.0",
         "chart.js": "^4.4.4",
         "luxon": "^3.5.0",
-        "node-red": "^2.0.0"
+        "node-red": "^4.0.2"
     },
     "scripts": {
         "start": "node index.js"
