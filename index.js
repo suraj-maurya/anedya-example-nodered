@@ -18,6 +18,10 @@ RED.init(server, settings);
 
 app.use(settings.httpAdminRoot, RED.httpAdmin);
 app.use(settings.httpNodeRoot, RED.httpNode);
+// Redirect root URL to the dashboard
+app.get('/', (req, res) => {
+    res.redirect('/dashboard/home');
+});
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
