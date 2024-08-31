@@ -13,7 +13,6 @@ const settings = {
 };
 
 RED.init(server, settings);
-
 app.use(settings.httpAdminRoot, RED.httpAdmin);
 app.use(settings.httpNodeRoot, RED.httpNode);
 
