@@ -7,7 +7,7 @@ const server = require("http").createServer(app);
 const settings = {
     httpAdminRoot: "/admin/",
     httpNodeRoot: "/api/",
-    // userDir: "./.nodered/",
+    userDir: "./.nodered/",
     flowFile: "flows.json",
     credentialFile: "flows_cred.json",
     functionGlobalContext: {}
