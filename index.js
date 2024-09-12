@@ -28,14 +28,14 @@ app.use((req, res, next) => {
     next();
 });
 
-server.listen(process.env.PORT || 3000, async () => {
-    console.log("Node-RED is running on port 3000");
-    const open = (await import('open')).default; // Dynamic import
+// server.listen(process.env.PORT || 3000, async () => {
+//     console.log("Node-RED is running on port 3000");
+//     const open = (await import('open')).default; // Dynamic import
     
-    // Set a delay of 2 seconds before opening the URL
-    setTimeout(() => {
-        open(`http://localhost:3000`);
-    }, 2000); // 2000 milliseconds = 2 seconds
-});
+//     // Set a delay of 2 seconds before opening the URL
+//     setTimeout(() => {
+//         open(`http://localhost:3000`);
+//     }, 2000); // 2000 milliseconds = 2 seconds
+// });
 
 RED.start();
