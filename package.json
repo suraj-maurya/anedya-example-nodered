@@ -1,7 +1,7 @@
 {
     "name": "anedya-iot-dashboard",
     "description": "Node-RED project for a smart office dashboard",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "private": true,
     "main": "index.js",
     "engines": {
