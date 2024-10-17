@@ -16,13 +16,14 @@ To get started with the examples:
 
 1. Clone the repository.
 2. Copy and project folder.
-3. Install neccessary dependency & and its ready to run.
+3. Install neccessary dependency and its ready to run.
 
 ## Documentation
 
 For detailed documentation, refer to the official documentation [here](https://docs.anedya.io?utm_source=github&utm_medium=link&utm_campaign=github-examples&utm_content=aneyda-nodered).
 
-<!-- ## License -->
+## License
+This project is licensed under the [MIT License](https://github.com/suraj-maurya/anedya-example-nodered/blob/main/LICENSE).
 
 >[!TIP]
 > For more information, visit [anedya.io](https://anedya.io/?utm_source=github&utm_medium=link&utm_campaign=github-examples&utm_content=anedya-nodered)
