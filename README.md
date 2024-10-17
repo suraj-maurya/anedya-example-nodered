@@ -15,7 +15,7 @@ This repository contains example projects of nodered integrated with Anedya IoT 
 To get started with the examples:
 
 1. Clone the repository.
-2. Copy and project folder.
+2. Open the project folder.
 3. Install neccessary dependency and its ready to run.
 
 ## Documentation
