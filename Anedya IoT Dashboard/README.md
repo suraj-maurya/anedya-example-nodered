@@ -1,10 +1,13 @@
 [<img src="https://img.shields.io/badge/Anedya-Documentation-blue?style=for-the-badge">](https://docs.anedya.io?utm_source=github&utm_medium=link&utm_campaign=github-examples&utm_content=anedya-nodered)
 
-# Anedya-IoT-Dashboard
-The Anedya IoT cloud enables users to monitor and control IoT devices remotely. The dashboard displays real-time data on humidity and temperature, as well as providing control buttons to operate a fan and a light. The control buttons sync with real-time changes, reflecting the current state of the devices.
+# Anedya IoT Dashboard
+
+The Anedya IoT cloud allows users to remotely monitor and manage their IoT devices. This dashboard showcases real-time data for humidity and temperature, along with control buttons for operating a fan and a light. These buttons are synchronized with real-time updates, accurately reflecting the current status of the devices.
 
 ## Setup and Configuration
+
 ### Running on Localhost
+
 1. Clone the repository and open the project folder in your IDE.
 2. Ensure that Node.js is installed on your machine. If it’s not installed, please follow the [instructions to install Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 3. Install the necessary dependencies for the project by running the `npm install` command.
@@ -14,8 +17,8 @@ The Anedya IoT cloud enables users to monitor and control IoT devices remotely. 
    - **API Key:** Obtain the API key from the Anedya dashboard by going to the project and selecting API Key.
 6. To access the admin panel, go to `localhost:3000/admin`.
 
-
 ### Hosting on Render
+
 1. Open [Render.com](https://render.com).
 2. Go to the [Dashboard](https://dashboard.render.com/login), sign up, and verify your account through the verification link sent to you.
 3. Fill out the **Tell us about yourself** section as follows:
@@ -31,18 +34,17 @@ The Anedya IoT cloud enables users to monitor and control IoT devices remotely. 
      You can adjust the rest of the settings according to your needs.
 8. Render will start deploying the most recent commit and provide you with a public URL.
 
+## How to Submit Real-Time Data to Anedya and Control Home Appliances
 
-## Integration with Hardware
+Follow the examples below to submit live data and achieve smart control:
 
-Connect your DHT sensor and relay module according to the examples provided in the following repositories:
 - [Basic Home Automation with NodeMCU](https://github.com/anedyaio/anedya-example-nodemcu/tree/main/basic-home-automation)
 - [Basic Home Automation with Pico](https://github.com/anedyaio/anedya-example-pico/tree/main/Thonny/basic-home-automation/pico)
 
-Upload the provided sketch from the repository to read sensor data and control devices. Please follow the detailed instructions in the README.
-
 
 ## License
+
 This project is licensed under the [MIT License](https://github.com/suraj-maurya/anedya-example-nodered/blob/main/LICENSE).
 
->[!TIP]
-> For more information, visit [anedya.io](https://anedya.io/?utm_source=github&utm_medium=link&utm_campaign=github-examples&utm_content=anedya-nodered)
+> [!TIP]
+> For more information, visit [anedya.io](https://anedya.io/?utm_source=github&utm_medium=link&utm_campaign=github-examples&utm_content=anedya-nodered).
