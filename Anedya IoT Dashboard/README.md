@@ -25,8 +25,8 @@ The Anedya IoT cloud enables users to monitor and control IoT devices remotely. 
 6. In render, now click on the Github, Authorize Render for github, select your repo and click on install. Now it will start appearing in the Git Provider section, select the repo and proceed.
 7. Deployment section will appear. Change:- 
     - **Region** Note: Select your nearest one.
-    - **Instance Type:** `Free`.
-rest you can change according to your neccessity.
+    - **Instance Type:** `Free`. <br>
+    rest you can change according to your neccessity.
  8. It will start deploying the recent commit with a public url.
 
 
