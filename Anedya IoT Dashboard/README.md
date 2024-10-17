@@ -21,12 +21,12 @@ The Anedya IoT cloud enables users to monitor and control IoT devices remotely. 
     - **What type of project are you building?:** `Web app`
     - **Where is your project hosted?:** `Project running locally`
 4. Click on +New button & select Web Service.
-5. It's time to link Github repo, first, create a Github repository and upload your source code in it.
-6. Now click on the Github, Authorize Render for github, select your repo and click on install. Now it will start appearing in the Git Provider section, select the repo and proceed.
+5. It's time to link Github repo. First, create a Github repository and upload your source code in it or you can fork the main repo.
+6. In render, now click on the Github, Authorize Render for github, select your repo and click on install. Now it will start appearing in the Git Provider section, select the repo and proceed.
 7. Deployment section will appear. Change:- 
     - **Region** Note: Select your nearest one.
     - **Instance Type:** `Free`
-        rest you can keep the same.
+rest you can change according to your neccessity.
  8. It will start deploying the recent commit with a public url.
 
 
