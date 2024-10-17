@@ -29,9 +29,9 @@ app.use((req, res, next) => {
 });
 
 // Uncomment if you are deploying the flow in production.
-// server.listen(process.env.PORT || 3000, () => {
-//     console.log("Node-RED is running on port 3000");
-// });
+server.listen(process.env.PORT || 3000, () => {
+    console.log("Node-RED is running on port 3000");
+});
 
 //Uncomment if you are running locally
 // server.listen(process.env.PORT || 3000, async () => {
