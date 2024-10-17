@@ -26,6 +26,7 @@ The Anedya IoT cloud enables users to monitor and control IoT devices remotely. 
 7. Deployment section will appear. Change:- 
     - **Region** Note: Select your nearest one.
     - **Instance Type:** `Free`
+
 rest you can change according to your neccessity.
  8. It will start deploying the recent commit with a public url.
 
